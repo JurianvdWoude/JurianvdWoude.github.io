@@ -7,10 +7,12 @@ import Home from './pages/Home'
 import Engine from './pages/Engine'
 import Simulation from './pages/Simulation'
 
+import type { NavLinkRenderProps } from "react-router-dom";
+
 import './App.css'
 
 function App() {
-  const linkClasses = ({ isActive }) => [
+  const linkClasses = ({ isActive }: NavLinkRenderProps): string => [
     "px-8 py-4 rounded-2xl",
     "text-lg font-semibold",
     "border-2",
@@ -19,6 +21,8 @@ function App() {
       ? "bg-lime-400 border-lime-400 text-slate-900 shadow-sm"
       : "bg-white border-slate-900 text-slate-900 hover:bg-slate-100",
   ].join(" ");
+
+
   return (
     <div className="App">
       <nav className="sticky top-0 z-50 border-b border-slate-200 bg-white">
