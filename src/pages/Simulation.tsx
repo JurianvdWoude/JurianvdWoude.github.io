@@ -10,7 +10,7 @@ function Simulation() {
   <div className="Simulation">
     <div className="flex">
       <div className="flex h-full flex-col w-full">
-        <iframe src="https://192.168.2.130/d-solo/adrn4t9/power-usage?from=1767222000000&to=1798757999999&timezone=browser&orgId=2&panelId=panel-5" width={"max-width"} height={600} frameBorder={0}></iframe>
+        <iframe src="https://localhost:3000/d-solo/adrn4t9/power-usage?from=1767222000000&to=1798757999999&timezone=browser&orgId=2&panelId=panel-5" width={"max-width"} height={600} frameBorder={0}></iframe>
       </div>
     {/*
       graphState == 1 &&
