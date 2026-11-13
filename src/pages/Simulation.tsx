@@ -1,17 +1,28 @@
 //import Chat from './components/Chat'
 //import Map from './components/Map'
-//import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 
 function Simulation() {
-  //const [graphState, setGraphState] = useState(0)
+  const [graphState, setGraphState] = useState(0)
+
+  useEffect(() => {
+    setGraphState(1);
+  }, [])
 
  return (
   <div className="Simulation">
     <div className="flex">
-      <div className="flex h-full flex-col w-full">
-        <iframe src="https://localhost:3000/d-solo/adrn4t9/power-usage?from=1767222000000&to=1798757999999&timezone=browser&orgId=2&panelId=panel-5" width={"max-width"} height={600} frameBorder={0}></iframe>
-      </div>
+      { graphState == 0 &&
+        <div className="flex h-full flex-col w-full">
+          <iframe src="https://localhost:3000/d-solo/adrn4t9/power-usage?from=1767222000000&to=1798757999999&timezone=browser&orgId=2&panelId=panel-5" width={"max-width"} height={600} frameBorder={0}></iframe>
+        </div>
+      }
+      { graphState == 1 &&
+        <div className="flex h-full flex-col w-full">
+          <img src="Graph.png" />
+        </div>
+      }
     {/*
       graphState == 1 &&
       <div className="flex h-full flex-col w-full">
