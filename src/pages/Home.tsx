@@ -21,7 +21,11 @@ function Home() {
     },
   ]
   return (
-    <div className="min-h-screen bg-slate-50 px-6 py-16 text-slate-900 Home">
+    <>
+    <div> 
+      <h1>The Journey</h1>
+    </div>
+    <div className="min-h-screen px-6 py-10 text-slate-900 Home">
       <div className="mx-auto max-w-6xl">
          {journey.map((item, index) => {
             return (
@@ -33,7 +37,7 @@ function Home() {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className={`h-72 rounded-xl object-cover shadow-md m-2
+                    className={`h-72 rounded-xl object-cover shadow-md mx-4 my-2
                     ${
                       item.imageLeft ? "float-left" : "float-right"
                     }`}
@@ -53,6 +57,7 @@ function Home() {
           })}
       </div>
     </div>
+    </>
   );
 }
 

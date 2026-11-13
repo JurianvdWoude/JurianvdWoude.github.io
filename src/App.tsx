@@ -30,11 +30,16 @@ function App() {
           <div className="flex items-center gap-4">
            <NavLink
               to="/"
-              className={""}
+              className={"flex"}
             >
               <img
                 src={`logo.png`}
-                alt="Go!Rillas"
+                alt="Go!Rillas icon"
+                className="h-16 w-auto"
+              />
+              <img
+                src={`title.png`}
+                alt="Go!Rillas title"
                 className="h-16 w-auto"
               />
             </NavLink>
