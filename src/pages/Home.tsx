@@ -22,9 +22,6 @@ function Home() {
   ]
   return (
     <>
-    <div> 
-      <h1>The Journey</h1>
-    </div>
     <div className="min-h-screen px-6 py-10 text-slate-900 Home">
       <div className="mx-auto max-w-6xl">
          {journey.map((item, index) => {

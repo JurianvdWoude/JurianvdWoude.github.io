@@ -1,0 +1,534 @@
+{
+  "Slim laden": {
+    "category": "flexibility",
+    "solution_type": "COMPLEMENTARY",
+    "scope": "LOCAL",
+    "cost_model": "smart_charging",
+    "relief_model": "smart_charging",
+    "lead_time_months": [
+      2,
+      12
+    ],
+    "lifetime_years": [
+      8,
+      15
+    ],
+    "technical_feasibility": [
+      4,
+      5
+    ],
+    "execution_feasibility": [
+      4,
+      5
+    ],
+    "permit_complexity": [
+      1,
+      2
+    ],
+    "spatial_impact": [
+      1,
+      2
+    ],
+    "social_impact_score": [
+      3,
+      5
+    ],
+    "sustainability_score": [
+      4,
+      5
+    ],
+    "structural_score": [
+      2,
+      3
+    ],
+    "redundancy_after_reinforcement": [
+      0.0,
+      0.2
+    ],
+    "supports_demand_congestion": true,
+    "supports_generation_congestion": false,
+    "suitable_for_residential": true,
+    "suitable_for_industrial": true,
+    "confidence": "medium"
+  },
+  "Capaciteitssturingscontract": {
+    "category": "flexibility",
+    "solution_type": "BRIDGING",
+    "scope": "AREA",
+    "cost_model": "flex_contract",
+    "relief_model": "industrial_flex",
+    "lead_time_months": [
+      1,
+      9
+    ],
+    "lifetime_years": [
+      2,
+      8
+    ],
+    "technical_feasibility": [
+      4,
+      5
+    ],
+    "execution_feasibility": [
+      3,
+      5
+    ],
+    "permit_complexity": [
+      1,
+      1
+    ],
+    "spatial_impact": [
+      1,
+      1
+    ],
+    "social_impact_score": [
+      2,
+      4
+    ],
+    "sustainability_score": [
+      3,
+      5
+    ],
+    "structural_score": [
+      1,
+      2
+    ],
+    "redundancy_after_reinforcement": [
+      0.5,
+      0.9
+    ],
+    "supports_demand_congestion": true,
+    "supports_generation_congestion": true,
+    "suitable_for_residential": false,
+    "suitable_for_industrial": true,
+    "confidence": "medium"
+  },
+  "Industriële vraagsturing": {
+    "category": "flexibility",
+    "solution_type": "BRIDGING",
+    "scope": "AREA",
+    "cost_model": "industrial_flex",
+    "relief_model": "industrial_flex",
+    "lead_time_months": [
+      2,
+      12
+    ],
+    "lifetime_years": [
+      3,
+      10
+    ],
+    "technical_feasibility": [
+      3,
+      5
+    ],
+    "execution_feasibility": [
+      3,
+      5
+    ],
+    "permit_complexity": [
+      1,
+      2
+    ],
+    "spatial_impact": [
+      1,
+      1
+    ],
+    "social_impact_score": [
+      2,
+      4
+    ],
+    "sustainability_score": [
+      3,
+      5
+    ],
+    "structural_score": [
+      1,
+      2
+    ],
+    "redundancy_after_reinforcement": [
+      0.4,
+      0.8
+    ],
+    "supports_demand_congestion": true,
+    "supports_generation_congestion": false,
+    "suitable_for_residential": false,
+    "suitable_for_industrial": true,
+    "confidence": "medium"
+  },
+  "Buurtbatterij": {
+    "category": "storage",
+    "solution_type": "BRIDGING",
+    "scope": "LOCAL",
+    "cost_model": "battery",
+    "relief_model": "battery",
+    "battery_power_mw": [
+      0.5,
+      4.0
+    ],
+    "battery_duration_hours": [
+      1.5,
+      4.0
+    ],
+    "battery_cost_per_kwh": [
+      500,
+      700
+    ],
+    "lead_time_months": [
+      8,
+      24
+    ],
+    "lifetime_years": [
+      10,
+      15
+    ],
+    "technical_feasibility": [
+      4,
+      5
+    ],
+    "execution_feasibility": [
+      3,
+      4
+    ],
+    "permit_complexity": [
+      2,
+      4
+    ],
+    "spatial_impact": [
+      2,
+      4
+    ],
+    "social_impact_score": [
+      3,
+      5
+    ],
+    "sustainability_score": [
+      3,
+      5
+    ],
+    "structural_score": [
+      2,
+      3
+    ],
+    "redundancy_after_reinforcement": [
+      0.4,
+      0.8
+    ],
+    "supports_demand_congestion": true,
+    "supports_generation_congestion": true,
+    "suitable_for_residential": true,
+    "suitable_for_industrial": true,
+    "confidence": "medium"
+  },
+  "Energiehub": {
+    "category": "coordination",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "cost_model": "energy_hub",
+    "relief_model": "energy_hub",
+    "lead_time_months": [
+      12,
+      36
+    ],
+    "lifetime_years": [
+      15,
+      25
+    ],
+    "technical_feasibility": [
+      3,
+      5
+    ],
+    "execution_feasibility": [
+      2,
+      4
+    ],
+    "permit_complexity": [
+      2,
+      4
+    ],
+    "spatial_impact": [
+      2,
+      4
+    ],
+    "social_impact_score": [
+      4,
+      5
+    ],
+    "sustainability_score": [
+      4,
+      5
+    ],
+    "structural_score": [
+      4,
+      5
+    ],
+    "redundancy_after_reinforcement": [
+      0.0,
+      0.3
+    ],
+    "supports_demand_congestion": true,
+    "supports_generation_congestion": true,
+    "suitable_for_residential": false,
+    "suitable_for_industrial": true,
+    "confidence": "low"
+  },
+  "LS-netverzwaring": {
+    "category": "grid",
+    "solution_type": "STRUCTURAL",
+    "scope": "LOCAL",
+    "cost_model": "grid_reinforcement",
+    "relief_model": "grid_reinforcement",
+    "lead_time_months": [
+      12,
+      36
+    ],
+    "lifetime_years": [
+      30,
+      50
+    ],
+    "technical_feasibility": [
+      5,
+      5
+    ],
+    "execution_feasibility": [
+      2,
+      4
+    ],
+    "permit_complexity": [
+      2,
+      4
+    ],
+    "spatial_impact": [
+      3,
+      5
+    ],
+    "social_impact_score": [
+      4,
+      5
+    ],
+    "sustainability_score": [
+      3,
+      4
+    ],
+    "structural_score": [
+      5,
+      5
+    ],
+    "redundancy_after_reinforcement": [
+      0.0,
+      0.1
+    ],
+    "supports_demand_congestion": true,
+    "supports_generation_congestion": true,
+    "suitable_for_residential": true,
+    "suitable_for_industrial": true,
+    "confidence": "medium"
+  },
+  "Extra transformator": {
+    "category": "grid",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "cost_model": "transformer",
+    "relief_model": "transformer",
+    "lead_time_months": [
+      12,
+      36
+    ],
+    "lifetime_years": [
+      30,
+      50
+    ],
+    "technical_feasibility": [
+      4,
+      5
+    ],
+    "execution_feasibility": [
+      2,
+      4
+    ],
+    "permit_complexity": [
+      2,
+      4
+    ],
+    "spatial_impact": [
+      2,
+      4
+    ],
+    "social_impact_score": [
+      4,
+      5
+    ],
+    "sustainability_score": [
+      3,
+      4
+    ],
+    "structural_score": [
+      5,
+      5
+    ],
+    "redundancy_after_reinforcement": [
+      0.0,
+      0.1
+    ],
+    "supports_demand_congestion": true,
+    "supports_generation_congestion": true,
+    "suitable_for_residential": true,
+    "suitable_for_industrial": true,
+    "confidence": "medium"
+  },
+  "Warmtenet": {
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "cost_model": "district_heating",
+    "relief_model": "heat_substitution",
+    "lead_time_months": [
+      24,
+      96
+    ],
+    "lifetime_years": [
+      30,
+      50
+    ],
+    "technical_feasibility": [
+      2,
+      5
+    ],
+    "execution_feasibility": [
+      1,
+      3
+    ],
+    "permit_complexity": [
+      4,
+      5
+    ],
+    "spatial_impact": [
+      4,
+      5
+    ],
+    "social_impact_score": [
+      4,
+      5
+    ],
+    "sustainability_score": [
+      4,
+      5
+    ],
+    "structural_score": [
+      5,
+      5
+    ],
+    "redundancy_after_reinforcement": [
+      0.0,
+      0.2
+    ],
+    "supports_demand_congestion": true,
+    "supports_generation_congestion": false,
+    "suitable_for_residential": true,
+    "suitable_for_industrial": false,
+    "confidence": "low"
+  },
+  "Groen gas": {
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "cost_model": "green_gas",
+    "relief_model": "heat_substitution",
+    "lead_time_months": [
+      12,
+      48
+    ],
+    "lifetime_years": [
+      20,
+      40
+    ],
+    "technical_feasibility": [
+      3,
+      5
+    ],
+    "execution_feasibility": [
+      2,
+      4
+    ],
+    "permit_complexity": [
+      2,
+      4
+    ],
+    "spatial_impact": [
+      2,
+      4
+    ],
+    "social_impact_score": [
+      3,
+      5
+    ],
+    "sustainability_score": [
+      3,
+      5
+    ],
+    "structural_score": [
+      4,
+      5
+    ],
+    "redundancy_after_reinforcement": [
+      0.0,
+      0.2
+    ],
+    "supports_demand_congestion": true,
+    "supports_generation_congestion": false,
+    "suitable_for_residential": true,
+    "suitable_for_industrial": true,
+    "confidence": "low"
+  },
+  "Waterstof": {
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "cost_model": "hydrogen",
+    "relief_model": "heat_substitution",
+    "lead_time_months": [
+      36,
+      120
+    ],
+    "lifetime_years": [
+      20,
+      40
+    ],
+    "technical_feasibility": [
+      2,
+      4
+    ],
+    "execution_feasibility": [
+      1,
+      3
+    ],
+    "permit_complexity": [
+      4,
+      5
+    ],
+    "spatial_impact": [
+      3,
+      5
+    ],
+    "social_impact_score": [
+      2,
+      5
+    ],
+    "sustainability_score": [
+      3,
+      5
+    ],
+    "structural_score": [
+      4,
+      5
+    ],
+    "redundancy_after_reinforcement": [
+      0.0,
+      0.2
+    ],
+    "supports_demand_congestion": true,
+    "supports_generation_congestion": false,
+    "suitable_for_residential": true,
+    "suitable_for_industrial": true,
+    "confidence": "low"
+  }
+}

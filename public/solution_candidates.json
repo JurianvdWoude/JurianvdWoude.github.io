@@ -1,0 +1,1314 @@
+[
+  {
+    "neighbourhood_id": "centrum",
+    "neighbourhood_name": "Centrum",
+    "solution_name": "Slim laden",
+    "category": "flexibility",
+    "solution_type": "COMPLEMENTARY",
+    "scope": "LOCAL",
+    "impact": {
+      "congestion_relief_mw": 1.3,
+      "affected_connections": 907,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "implementation",
+      "rendo_eur": 191700,
+      "annual_cost_eur": 9585,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 5,
+      "lifetime_years": 11,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 4,
+      "execution": 4
+    },
+    "spatial_legal": {
+      "permit_complexity": 2,
+      "spatial_impact": 1
+    },
+    "society": {
+      "social_impact_score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 2,
+      "planned_reinforcement_year": 2030,
+      "useful_years_before_reinforcement": 3,
+      "redundancy_after_reinforcement": 0.01
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "centrum",
+    "neighbourhood_name": "Centrum",
+    "solution_name": "Capaciteitssturingscontract",
+    "category": "flexibility",
+    "solution_type": "BRIDGING",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 0.16,
+      "affected_connections": 703,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "annual_compensation",
+      "rendo_eur": 0,
+      "annual_cost_eur": 16102,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 9,
+      "lifetime_years": 5,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 4,
+      "execution": 4
+    },
+    "spatial_legal": {
+      "permit_complexity": 1,
+      "spatial_impact": 1
+    },
+    "society": {
+      "social_impact_score": 2,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 2,
+      "planned_reinforcement_year": 2030,
+      "useful_years_before_reinforcement": 3,
+      "redundancy_after_reinforcement": 0.64
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "centrum",
+    "neighbourhood_name": "Centrum",
+    "solution_name": "Industriële vraagsturing",
+    "category": "flexibility",
+    "solution_type": "BRIDGING",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 0.16,
+      "affected_connections": 1447,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "annual_compensation",
+      "rendo_eur": 0,
+      "annual_cost_eur": 24778,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 8,
+      "lifetime_years": 4,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 4,
+      "execution": 4
+    },
+    "spatial_legal": {
+      "permit_complexity": 1,
+      "spatial_impact": 1
+    },
+    "society": {
+      "social_impact_score": 2,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 2,
+      "planned_reinforcement_year": 2030,
+      "useful_years_before_reinforcement": 3,
+      "redundancy_after_reinforcement": 0.61
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "centrum",
+    "neighbourhood_name": "Centrum",
+    "solution_name": "Buurtbatterij",
+    "category": "storage",
+    "solution_type": "BRIDGING",
+    "scope": "LOCAL",
+    "impact": {
+      "congestion_relief_mw": 3.2,
+      "affected_connections": 1343,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "capex",
+      "rendo_eur": 5025440,
+      "annual_cost_eur": 100508,
+      "battery_power_mw": 3.2,
+      "battery_duration_hours": 2.45,
+      "battery_capacity_kwh": 7840,
+      "cost_per_kwh": 641,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 19,
+      "lifetime_years": 14,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 4,
+      "execution": 3
+    },
+    "spatial_legal": {
+      "permit_complexity": 5,
+      "spatial_impact": 2
+    },
+    "society": {
+      "social_impact_score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 3,
+      "planned_reinforcement_year": 2030,
+      "useful_years_before_reinforcement": 3,
+      "redundancy_after_reinforcement": 0.79
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "centrum",
+    "neighbourhood_name": "Centrum",
+    "solution_name": "Energiehub",
+    "category": "coordination",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 0.2,
+      "affected_connections": 1552,
+      "impact_confidence": "low"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 4399176,
+      "annual_cost_eur": 131975,
+      "cost_confidence": "low"
+    },
+    "time": {
+      "lead_time_months": 32,
+      "lifetime_years": 20,
+      "schedule_confidence": "low"
+    },
+    "feasibility": {
+      "technical": 3,
+      "execution": 3
+    },
+    "spatial_legal": {
+      "permit_complexity": 4,
+      "spatial_impact": 3
+    },
+    "society": {
+      "social_impact_score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 4,
+      "planned_reinforcement_year": 2030,
+      "useful_years_before_reinforcement": 3,
+      "redundancy_after_reinforcement": 0.18
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "centrum",
+    "neighbourhood_name": "Centrum",
+    "solution_name": "LS-netverzwaring",
+    "category": "grid",
+    "solution_type": "STRUCTURAL",
+    "scope": "LOCAL",
+    "impact": {
+      "congestion_relief_mw": 4.28,
+      "affected_connections": 1032,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 1413494,
+      "annual_cost_eur": 14134,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 20,
+      "lifetime_years": 50,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 4
+    },
+    "spatial_legal": {
+      "permit_complexity": 4,
+      "spatial_impact": 4
+    },
+    "society": {
+      "social_impact_score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2030,
+      "useful_years_before_reinforcement": 3,
+      "redundancy_after_reinforcement": 0.08
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "centrum",
+    "neighbourhood_name": "Centrum",
+    "solution_name": "Extra transformator",
+    "category": "grid",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 5.7,
+      "affected_connections": 2831,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 505901,
+      "annual_cost_eur": 5059,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 34,
+      "lifetime_years": 40,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 4,
+      "execution": 4
+    },
+    "spatial_legal": {
+      "permit_complexity": 5,
+      "spatial_impact": 3
+    },
+    "society": {
+      "social_impact_score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2030,
+      "useful_years_before_reinforcement": 3,
+      "redundancy_after_reinforcement": 0.03
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "centrum",
+    "neighbourhood_name": "Centrum",
+    "solution_name": "Warmtenet",
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 0.76,
+      "affected_connections": 2043,
+      "impact_confidence": "low"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 13802336,
+      "annual_cost_eur": 276046,
+      "cost_confidence": "low"
+    },
+    "time": {
+      "lead_time_months": 70,
+      "lifetime_years": 37,
+      "schedule_confidence": "low"
+    },
+    "feasibility": {
+      "technical": 3,
+      "execution": 3
+    },
+    "spatial_legal": {
+      "permit_complexity": 5,
+      "spatial_impact": 5
+    },
+    "society": {
+      "social_impact_score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2030,
+      "useful_years_before_reinforcement": 3,
+      "redundancy_after_reinforcement": 0.03
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "centrum",
+    "neighbourhood_name": "Centrum",
+    "solution_name": "Groen gas",
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 0.68,
+      "affected_connections": 2071,
+      "impact_confidence": "low"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 5603609,
+      "annual_cost_eur": 112072,
+      "cost_confidence": "low"
+    },
+    "time": {
+      "lead_time_months": 36,
+      "lifetime_years": 39,
+      "schedule_confidence": "low"
+    },
+    "feasibility": {
+      "technical": 4,
+      "execution": 4
+    },
+    "spatial_legal": {
+      "permit_complexity": 4,
+      "spatial_impact": 3
+    },
+    "society": {
+      "social_impact_score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 4,
+      "planned_reinforcement_year": 2030,
+      "useful_years_before_reinforcement": 3,
+      "redundancy_after_reinforcement": 0.14
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "centrum",
+    "neighbourhood_name": "Centrum",
+    "solution_name": "Waterstof",
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 1.06,
+      "affected_connections": 2178,
+      "impact_confidence": "low"
+    },
+    "cost": {
+      "type": "high_uncertainty_estimate",
+      "rendo_eur": 6802853,
+      "annual_cost_eur": 204085,
+      "cost_confidence": "low"
+    },
+    "time": {
+      "lead_time_months": 73,
+      "lifetime_years": 33,
+      "schedule_confidence": "low"
+    },
+    "feasibility": {
+      "technical": 2,
+      "execution": 2
+    },
+    "spatial_legal": {
+      "permit_complexity": 5,
+      "spatial_impact": 3
+    },
+    "society": {
+      "social_impact_score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 4,
+      "planned_reinforcement_year": 2030,
+      "useful_years_before_reinforcement": 3,
+      "redundancy_after_reinforcement": 0.1
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "krakeel",
+    "neighbourhood_name": "Krakeel",
+    "solution_name": "Slim laden",
+    "category": "flexibility",
+    "solution_type": "COMPLEMENTARY",
+    "scope": "LOCAL",
+    "impact": {
+      "congestion_relief_mw": 0.61,
+      "affected_connections": 1961,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "implementation",
+      "rendo_eur": 42350,
+      "annual_cost_eur": 2117,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 12,
+      "lifetime_years": 11,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 4,
+      "execution": 5
+    },
+    "spatial_legal": {
+      "permit_complexity": 2,
+      "spatial_impact": 1
+    },
+    "society": {
+      "social_impact_score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 3,
+      "planned_reinforcement_year": 2031,
+      "useful_years_before_reinforcement": 4,
+      "redundancy_after_reinforcement": 0.1
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "krakeel",
+    "neighbourhood_name": "Krakeel",
+    "solution_name": "Buurtbatterij",
+    "category": "storage",
+    "solution_type": "BRIDGING",
+    "scope": "LOCAL",
+    "impact": {
+      "congestion_relief_mw": 0.89,
+      "affected_connections": 873,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "capex",
+      "rendo_eur": 1239752,
+      "annual_cost_eur": 24795,
+      "battery_power_mw": 0.89,
+      "battery_duration_hours": 2.41,
+      "battery_capacity_kwh": 2144,
+      "cost_per_kwh": 578,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 10,
+      "lifetime_years": 10,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 3
+    },
+    "spatial_legal": {
+      "permit_complexity": 2,
+      "spatial_impact": 4
+    },
+    "society": {
+      "social_impact_score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 3,
+      "planned_reinforcement_year": 2031,
+      "useful_years_before_reinforcement": 4,
+      "redundancy_after_reinforcement": 0.78
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "krakeel",
+    "neighbourhood_name": "Krakeel",
+    "solution_name": "LS-netverzwaring",
+    "category": "grid",
+    "solution_type": "STRUCTURAL",
+    "scope": "LOCAL",
+    "impact": {
+      "congestion_relief_mw": 3.2,
+      "affected_connections": 1506,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 1130440,
+      "annual_cost_eur": 11304,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 29,
+      "lifetime_years": 36,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 3
+    },
+    "spatial_legal": {
+      "permit_complexity": 2,
+      "spatial_impact": 5
+    },
+    "society": {
+      "social_impact_score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2031,
+      "useful_years_before_reinforcement": 4,
+      "redundancy_after_reinforcement": 0.01
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "krakeel",
+    "neighbourhood_name": "Krakeel",
+    "solution_name": "Extra transformator",
+    "category": "grid",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 3.77,
+      "affected_connections": 1474,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 940936,
+      "annual_cost_eur": 9409,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 30,
+      "lifetime_years": 37,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 4,
+      "execution": 2
+    },
+    "spatial_legal": {
+      "permit_complexity": 2,
+      "spatial_impact": 4
+    },
+    "society": {
+      "social_impact_score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2031,
+      "useful_years_before_reinforcement": 4,
+      "redundancy_after_reinforcement": 0.09
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "krakeel",
+    "neighbourhood_name": "Krakeel",
+    "solution_name": "Warmtenet",
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 1.31,
+      "affected_connections": 1613,
+      "impact_confidence": "low"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 8888706,
+      "annual_cost_eur": 177774,
+      "cost_confidence": "low"
+    },
+    "time": {
+      "lead_time_months": 93,
+      "lifetime_years": 34,
+      "schedule_confidence": "low"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 1
+    },
+    "spatial_legal": {
+      "permit_complexity": 4,
+      "spatial_impact": 5
+    },
+    "society": {
+      "social_impact_score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2031,
+      "useful_years_before_reinforcement": 4,
+      "redundancy_after_reinforcement": 0.02
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "krakeel",
+    "neighbourhood_name": "Krakeel",
+    "solution_name": "Groen gas",
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 0.89,
+      "affected_connections": 1265,
+      "impact_confidence": "low"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 3676839,
+      "annual_cost_eur": 73536,
+      "cost_confidence": "low"
+    },
+    "time": {
+      "lead_time_months": 15,
+      "lifetime_years": 40,
+      "schedule_confidence": "low"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 2
+    },
+    "spatial_legal": {
+      "permit_complexity": 4,
+      "spatial_impact": 2
+    },
+    "society": {
+      "social_impact_score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2031,
+      "useful_years_before_reinforcement": 4,
+      "redundancy_after_reinforcement": 0.16
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "krakeel",
+    "neighbourhood_name": "Krakeel",
+    "solution_name": "Waterstof",
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 0.58,
+      "affected_connections": 1385,
+      "impact_confidence": "low"
+    },
+    "cost": {
+      "type": "high_uncertainty_estimate",
+      "rendo_eur": 5448621,
+      "annual_cost_eur": 163458,
+      "cost_confidence": "low"
+    },
+    "time": {
+      "lead_time_months": 90,
+      "lifetime_years": 25,
+      "schedule_confidence": "low"
+    },
+    "feasibility": {
+      "technical": 3,
+      "execution": 2
+    },
+    "spatial_legal": {
+      "permit_complexity": 4,
+      "spatial_impact": 3
+    },
+    "society": {
+      "social_impact_score": 2,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 4,
+      "planned_reinforcement_year": 2031,
+      "useful_years_before_reinforcement": 4,
+      "redundancy_after_reinforcement": 0.01
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "riegmeer",
+    "neighbourhood_name": "Riegmeer",
+    "solution_name": "Slim laden",
+    "category": "flexibility",
+    "solution_type": "COMPLEMENTARY",
+    "scope": "LOCAL",
+    "impact": {
+      "congestion_relief_mw": 0.4,
+      "affected_connections": 372,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "implementation",
+      "rendo_eur": 28200,
+      "annual_cost_eur": 1410,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 5,
+      "lifetime_years": 10,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 5
+    },
+    "spatial_legal": {
+      "permit_complexity": 1,
+      "spatial_impact": 2
+    },
+    "society": {
+      "social_impact_score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 2,
+      "planned_reinforcement_year": 2029,
+      "useful_years_before_reinforcement": 2,
+      "redundancy_after_reinforcement": 0.03
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "riegmeer",
+    "neighbourhood_name": "Riegmeer",
+    "solution_name": "Capaciteitssturingscontract",
+    "category": "flexibility",
+    "solution_type": "BRIDGING",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 2.16,
+      "affected_connections": 402,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "annual_compensation",
+      "rendo_eur": 0,
+      "annual_cost_eur": 187597,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 5,
+      "lifetime_years": 5,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 3
+    },
+    "spatial_legal": {
+      "permit_complexity": 1,
+      "spatial_impact": 1
+    },
+    "society": {
+      "social_impact_score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 1,
+      "planned_reinforcement_year": 2029,
+      "useful_years_before_reinforcement": 2,
+      "redundancy_after_reinforcement": 0.73
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "riegmeer",
+    "neighbourhood_name": "Riegmeer",
+    "solution_name": "Industriële vraagsturing",
+    "category": "flexibility",
+    "solution_type": "BRIDGING",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 2.84,
+      "affected_connections": 109,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "annual_compensation",
+      "rendo_eur": 0,
+      "annual_cost_eur": 368510,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 10,
+      "lifetime_years": 5,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 3,
+      "execution": 5
+    },
+    "spatial_legal": {
+      "permit_complexity": 2,
+      "spatial_impact": 1
+    },
+    "society": {
+      "social_impact_score": 2,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 1,
+      "planned_reinforcement_year": 2029,
+      "useful_years_before_reinforcement": 2,
+      "redundancy_after_reinforcement": 0.67
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "riegmeer",
+    "neighbourhood_name": "Riegmeer",
+    "solution_name": "Buurtbatterij",
+    "category": "storage",
+    "solution_type": "BRIDGING",
+    "scope": "LOCAL",
+    "impact": {
+      "congestion_relief_mw": 1.32,
+      "affected_connections": 173,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "capex",
+      "rendo_eur": 1532520,
+      "annual_cost_eur": 30650,
+      "battery_power_mw": 1.32,
+      "battery_duration_hours": 1.8,
+      "battery_capacity_kwh": 2376,
+      "cost_per_kwh": 645,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 9,
+      "lifetime_years": 14,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 4,
+      "execution": 4
+    },
+    "spatial_legal": {
+      "permit_complexity": 4,
+      "spatial_impact": 4
+    },
+    "society": {
+      "social_impact_score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 3,
+      "planned_reinforcement_year": 2029,
+      "useful_years_before_reinforcement": 2,
+      "redundancy_after_reinforcement": 0.77
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "riegmeer",
+    "neighbourhood_name": "Riegmeer",
+    "solution_name": "Energiehub",
+    "category": "coordination",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 1.73,
+      "affected_connections": 170,
+      "impact_confidence": "low"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 3722863,
+      "annual_cost_eur": 111685,
+      "cost_confidence": "low"
+    },
+    "time": {
+      "lead_time_months": 16,
+      "lifetime_years": 25,
+      "schedule_confidence": "low"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 3
+    },
+    "spatial_legal": {
+      "permit_complexity": 3,
+      "spatial_impact": 3
+    },
+    "society": {
+      "social_impact_score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 4,
+      "planned_reinforcement_year": 2029,
+      "useful_years_before_reinforcement": 2,
+      "redundancy_after_reinforcement": 0.14
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "riegmeer",
+    "neighbourhood_name": "Riegmeer",
+    "solution_name": "LS-netverzwaring",
+    "category": "grid",
+    "solution_type": "STRUCTURAL",
+    "scope": "LOCAL",
+    "impact": {
+      "congestion_relief_mw": 12.99,
+      "affected_connections": 114,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 1496096,
+      "annual_cost_eur": 14960,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 28,
+      "lifetime_years": 38,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 3
+    },
+    "spatial_legal": {
+      "permit_complexity": 2,
+      "spatial_impact": 3
+    },
+    "society": {
+      "social_impact_score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2029,
+      "useful_years_before_reinforcement": 2,
+      "redundancy_after_reinforcement": 0.02
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "riegmeer",
+    "neighbourhood_name": "Riegmeer",
+    "solution_name": "Extra transformator",
+    "category": "grid",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 14.95,
+      "affected_connections": 296,
+      "impact_confidence": "medium"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 1525663,
+      "annual_cost_eur": 15256,
+      "cost_confidence": "medium"
+    },
+    "time": {
+      "lead_time_months": 28,
+      "lifetime_years": 30,
+      "schedule_confidence": "medium"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 4
+    },
+    "spatial_legal": {
+      "permit_complexity": 4,
+      "spatial_impact": 2
+    },
+    "society": {
+      "social_impact_score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2029,
+      "useful_years_before_reinforcement": 2,
+      "redundancy_after_reinforcement": 0.09
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "riegmeer",
+    "neighbourhood_name": "Riegmeer",
+    "solution_name": "Groen gas",
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 1.94,
+      "affected_connections": 185,
+      "impact_confidence": "low"
+    },
+    "cost": {
+      "type": "capex_estimate",
+      "rendo_eur": 1665859,
+      "annual_cost_eur": 33317,
+      "cost_confidence": "low"
+    },
+    "time": {
+      "lead_time_months": 33,
+      "lifetime_years": 26,
+      "schedule_confidence": "low"
+    },
+    "feasibility": {
+      "technical": 5,
+      "execution": 4
+    },
+    "spatial_legal": {
+      "permit_complexity": 2,
+      "spatial_impact": 3
+    },
+    "society": {
+      "social_impact_score": 5,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2029,
+      "useful_years_before_reinforcement": 2,
+      "redundancy_after_reinforcement": 0.18
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  },
+  {
+    "neighbourhood_id": "riegmeer",
+    "neighbourhood_name": "Riegmeer",
+    "solution_name": "Waterstof",
+    "category": "alternative_carrier",
+    "solution_type": "STRUCTURAL",
+    "scope": "AREA",
+    "impact": {
+      "congestion_relief_mw": 2.1,
+      "affected_connections": 232,
+      "impact_confidence": "low"
+    },
+    "cost": {
+      "type": "high_uncertainty_estimate",
+      "rendo_eur": 3661372,
+      "annual_cost_eur": 109841,
+      "cost_confidence": "low"
+    },
+    "time": {
+      "lead_time_months": 41,
+      "lifetime_years": 20,
+      "schedule_confidence": "low"
+    },
+    "feasibility": {
+      "technical": 3,
+      "execution": 1
+    },
+    "spatial_legal": {
+      "permit_complexity": 5,
+      "spatial_impact": 5
+    },
+    "society": {
+      "social_impact_score": 4,
+      "metric_type": "synthetic_score"
+    },
+    "sustainability": {
+      "score": 3,
+      "metric_type": "synthetic_score"
+    },
+    "strategy": {
+      "structural_score": 5,
+      "planned_reinforcement_year": 2029,
+      "useful_years_before_reinforcement": 2,
+      "redundancy_after_reinforcement": 0.11
+    },
+    "data_quality": {
+      "is_demo_data": true,
+      "note": "Synthetic demo values based on realistic public ranges and location-dependent relationships."
+    }
+  }
+]
