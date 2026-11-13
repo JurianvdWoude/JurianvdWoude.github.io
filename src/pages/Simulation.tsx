@@ -1,4 +1,4 @@
-//import Chat from './components/Chat'
+import Chat from './components/Chat'
 //import Map from './components/Map'
 import { useState, useEffect } from 'react'
 
@@ -14,13 +14,19 @@ function Simulation() {
   <div className="Simulation">
     <div className="flex">
       { graphState == 0 &&
-        <div className="flex h-full flex-col w-full">
-          <iframe src="https://localhost:3000/d-solo/adrn4t9/power-usage?from=1767222000000&to=1798757999999&timezone=browser&orgId=2&panelId=panel-5" width={"max-width"} height={600} frameBorder={0}></iframe>
+        <div className="flex h-full w-full flex-col">
+          <iframe className="w-full" src="https://192.168.2.130:3000/d-solo/adrn4t9/power-usage?from=1767222000000&to=1798757999999&timezone=browser&orgId=2&panelId=panel-5" height={600} frameBorder={0}></iframe>
         </div>
       }
       { graphState == 1 &&
-        <div className="flex h-full flex-col w-full">
-          <img src="Graph.png" />
+        <div className="flex h-full w-full gap-4">
+          <div className="flex flex-col basis-3/5 max-h-[600px] overflow-y-auto">
+            <img className="w-full" src="GraphBig.png" />
+            <img className="w-full" src="Graph2.png" />
+          </div>
+          <div className="basis-2/5">
+            <Chat />
+          </div>
         </div>
       }
     {/*
